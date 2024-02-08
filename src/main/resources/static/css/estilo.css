@@ -1,0 +1,188 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #1D1B1B;
+    color: white;
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 59px;
+}
+
+.nav-menu-link {
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.nav-menu-link:hover {
+    background-color: grey;
+    transition: 0.5s;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+hr {
+    margin-left: 3%; 
+    margin-right: 0; 
+}
+h2 {
+    text-align: center;
+    font-size: 200%;
+    margin-top: 50px;
+     margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+h1 artistaSemanal{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 10px;
+}
+
+.novedades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+.novedades article {
+    text-align: center;
+    margin: 10px 10px 0 10px; 
+    width: calc(50% - 10%);
+    
+     
+}
+
+.novedades article figure h5 {
+    text-align: center;
+    margin: 0;
+}
+
+.encuesta {
+    text-align: left;
+    width: 38%;
+    margin: 5% auto; 
+    background-color: whitesmoke; 
+    padding: 2%; 
+    border-radius: 15%; /* esquinas redondas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+section {
+  text-align: center;
+  zoom: 100%;
+  overflow: hidden;
+  
+}
+
+article {
+  display: inline-block; 
+  margin: 0.1%
+}
+
+.disco{
+    text-align: center;
+    margin: 10px 10px 70px 10px;
+    width: calc(30% - 10%);
+}
+
+body  {
+    margin: 0; 
+    padding: 0; 
+    line-height: 0; 
+    margin-bottom: 5% !important; 
+
+}
+
+.columnas {
+    display: flex;
+      
+}
+
+.columnas div {
+    flex: 1;
+    padding: 0 10px;
+    margin-bottom: 20px;
+
+}
+
+.artista p {
+    text-align: center; 
+    justify-content:center;
+    display: inline-block;
+    vertical-align: top;
+    width: 550px;
+}
+
+.aside {
+    width: 20%;
+    height: 75%;
+    
+}
+.artista  {
+    position: absolute;
+    margin: 0px;    
+    top: 20%;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    background-color: #f4f4f4;
+    overflow-y: scroll;
+    
+}
+
+
+.instagram-media {
+    margin: 0 auto !important;
+    max-width: 400px !important; /*se usa para darle prioridad por si ya tenía otras medidas*/
+}
+
+.boton {
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 25px; 
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+}
+.boton-feid {
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 25px; 
+    background-color: #32CD32;
+    color: white;
+    text-decoration: none;
+}
+
+ .footer {
+            background-color: #1D1B1B;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 6%;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+.vertical {
+    margin-left: auto;
+    margin-right: auto;
+    width: 0.5px; 
+}
